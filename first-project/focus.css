@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 600px;
+  border: 2px solid green;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 50px auto;
+
+}
+input[type="text"],select,input[type="range"]{
+  width: 100%;
+}
+input,select,button{
+  padding: 8px 15px;
+
+}
+input[type="color"]{
+padding: 0;
+}
